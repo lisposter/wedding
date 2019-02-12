@@ -10,12 +10,18 @@
 <style>
 
     body {
-            text-align: center;
-            font-family: Papyrus;
+        /* text-align: center; */
+        font-family: Papyrus;
+        background: #f5f5f5;
+    }
+
+    .title {
+        text-align: center;
     }
 
     h1 {
         font-size: 2em;
+        margin-bottom: 3em;
     }
 
     div {
@@ -25,9 +31,29 @@
     .map img {
         width: 100%;
     }
+
+    a {
+        text-decoration: none;
+        color: #17a325;
+    }
+
+    .traffic div {
+        margin-left: 2em;
+    }
 </style>
 <body>
-    <h1>Welcome to Leigh and Zoe's wedding</h1>
+    <h1 class="title">Welcome to Leigh and Zoe's wedding</h1>
+
+
+    <div class="traffic"> 
+        <div class="title">路线</div>
+        如果你是坐动车过来的，可以选择如下方式抵达当晚入住的酒店：
+        <!-- <ul> -->
+            <div>1. 乘坐 <strong>微巴士-阿里线</strong>>，在阿里巴巴站下车，<a href="./route.html">点击查看如何乘车</a> </div>
+            <div>2. 在杭州东站西公交站坐 <strong>420路</strong>> 公交车，在阿里巴巴站下车</div>
+        <!-- </ul> -->
+        如果你是住在杭州的，可以直接导航之目的地：东信和创园-金桃咖啡厅
+    </div>
     
     <div class="map">
         <div class="title">东信和创园平面图</div>
